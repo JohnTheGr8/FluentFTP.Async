@@ -7,8 +7,8 @@
     <ProjectGuid>{3C2DC576-DB33-40F9-960D-A66A28F4BD96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>System.Net.FtpClient.Async</RootNamespace>
-    <AssemblyName>System.Net.FtpClient.Async</AssemblyName>
+    <RootNamespace>FluentFTP.Async</RootNamespace>
+    <AssemblyName>FluentFTP.Async</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
@@ -24,7 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\System.Net.FtpClient.Async.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\FluentFTP.Async.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\System.Net.FtpClient.Async.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\FluentFTP.Async.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentFTP, Version=16.3.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -56,12 +56,12 @@
     <Compile Include="Extensions\XSHA1Async.cs" />
     <Compile Include="Extensions\XSHA256Async.cs" />
     <Compile Include="Extensions\XSHA512Async.cs" />
-    <Compile Include="FtpClientAsyncExtension.cs" />
+    <Compile Include="FluentFtpAsyncExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="System.Net.FtpClient.Async.nuspec" />
+    <None Include="FluentFTP.Async.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
@@ -71,7 +71,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
   </Target>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>

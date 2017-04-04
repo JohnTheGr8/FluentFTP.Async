@@ -6,12 +6,12 @@
         <title>$title$</title>
         <authors>$author$</authors>
         <owners>$author$</owners>
-        <licenseUrl>https://raw.githubusercontent.com/rkttu/System.Net.FtpClient.Async/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/rkttu/System.Net.FtpClient.Async</projectUrl>
+        <licenseUrl>https://raw.githubusercontent.com/JohnTheGr8/FluentFTP.Async/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/JohnTheGr8/FluentFTP.Async</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>$description$</description>
         <summary>$description$</summary>
         <copyright>$copyright$</copyright>
-        <tags>system net ftpclient async ftp client cloudeveloper</tags>
+        <tags>fluentftp async ftp client TAP</tags>
     </metadata>
 </package>
