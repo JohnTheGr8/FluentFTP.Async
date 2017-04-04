@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Net.FtpClient.Extensions;
 using System.Threading.Tasks;
 
-namespace System.Net.FtpClient.Async.Extensions
+namespace FluentFTP.Extensions.Async
 {
     /// <summary>
     /// MD5Async

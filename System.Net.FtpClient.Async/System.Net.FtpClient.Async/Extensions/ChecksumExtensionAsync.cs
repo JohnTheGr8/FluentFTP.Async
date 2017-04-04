@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
 
-namespace System.Net.FtpClient.Extensions.Async
+namespace FluentFTP.Extensions.Async
 {
     /// <summary>
     /// ChecksumExtension
